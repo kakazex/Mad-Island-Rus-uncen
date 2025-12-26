@@ -1,0 +1,45 @@
+Build_2025/11/06--23:25=Сборка 2025/11/06 (v0.4.5.6)
+簡体中文=Китайский
+BGM=Музыка
+Environment=Окружение
+Voice=Голос (стоны)
+r:Save (\d+)\nDate:(\d+)年(\d+)月(\d+)日([\S\s]+)\nPlayTime:([\S\s]+)$=Сейв $1\nДата:$5  $4.$3.$2\nВсего: $6
+r:Backup Save\nDate:(\d+)年(\d+)月(\d+)日([\S\s]+)\nPlayTime:([\S\s]+)$=Авто-сейв (бэкап)\nДата:$4  $3.$2.$1\nВсего: $5
+r:Save (\d+)\nDate$=Сейв Слот $1 \n\n  Пусто
+r:Load Completed！...(\d+)sec$=Загрузка завершена！ ($1 сек.)
+Currently playing data=Загружено сохранение
+r:^[\W\d_]+$=$0
+r:Day (\d+)$=День $1
+r:Lv (\d+)$=$1 ур.
+r:(\d+)pt$=$1 оч.
+r:ACT(\d+)$=АКТ$1
+r:Clamor can be heard!([\S\s]+)$=Слышен шум! Рейд $1
+r:Consume (\d+) food to travel rapidly\?$=Потратить $1% еды для быстрого перемещения?
+r:(\d+) food is needed.$=Необходимо $1% еды для перемещения
+
+r:\n\n<color\=#33FF99>Attack (\d+)</color>$=\n\n<color\=#33FF99>Атака $1</color>
+r:\n\n<color\=#33FF99>Faint (\d+)</color>$=\n\n<color\=#33FF99>Оглушение $1</color>
+Heals injuries.\n\n<color\=#33FF99>Health 10</color>\n<color\=#33FF99>Food 1</color>\n<color\=#33FF99>Food Poisoning -5</color>=Лечит травмы.\n\n<color\=#33FF99>Здоровье 10</color>\n<color\=#33FF99>Еда 1</color>\n<color\=#33FF99>Пищевое отравление -5</color>
+
+Daytime=День
+Dawn=Рассвет
+Morning=Утро
+Evening=Вечер
+Noon=Полдень
+Night=Ночь
+Animations=Анимации
+Equips=Экипировка
+H Scenes=Х Сцены
+Return to title=В меню
+OK=Ok
+範囲=Радиус
+強度=Сила
+高さ=Высота
+透明度=Видим.
+影強度=Тень
+[Small]= [Маленький]
+[Medium]= [Средний]
+[Large]= [Большой]
+Pork=Свинина
+Sandworm=Песчаный червь
+Trader=<b>Наначи</b> (торг.)
