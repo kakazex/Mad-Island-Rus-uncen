@@ -16,11 +16,17 @@ r:ACT(\d+)$=АКТ$1
 r:Clamor can be heard!([\S\s]+)$=Слышен шум! Рейд $1
 r:Consume (\d+) food to travel rapidly\?$=Потратить $1% еды для быстрого перемещения?
 r:(\d+) food is needed.$=Необходимо $1% еды для перемещения
+r:Current level (\d+)$=Текущий уровень $1
+r:Current number of raiders (\d+)$=Итоговое количество рейдеров $1
+r:Current number of raiders (-\d+)$=Итоговое количество рейдеров $1 (рейда не будет)
 
 r:\n\n<color\=#33FF99>Attack (\d+)</color>$=\n\n<color\=#33FF99>Атака $1</color>
 r:\n\n<color\=#33FF99>Faint (\d+)</color>$=\n\n<color\=#33FF99>Оглушение $1</color>
 Heals injuries.\n\n<color\=#33FF99>Health 10</color>\n<color\=#33FF99>Food 1</color>\n<color\=#33FF99>Food Poisoning -5</color>=Лечит травмы.\n\n<color\=#33FF99>Здоровье 10</color>\n<color\=#33FF99>Еда 1</color>\n<color\=#33FF99>Пищевое отравление -5</color>
+\n\n<color\=#33FF99>Faint 20</color>\n<color\=#33FF99>Food 5</color>\n<color\=#33FF99>Water 4</color>=\n\n<color\=#33FF99>Оглушение? 20</color>\n<color\=#33FF99>Еда 5</color>\n<color\=#33FF99>Вода 4</color>
 
+Cannot move when NPC is inside.=Нельзя перемещать, когда NPC внутри
+Count=Кол-во
 Daytime=День
 Dawn=Рассвет
 Morning=Утро
