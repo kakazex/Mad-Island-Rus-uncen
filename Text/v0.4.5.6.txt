@@ -3652,7 +3652,6 @@ Left Leg (Shino)[Shino]=Левая нога (Шино)
 Right Arm (Shino)<size\=6><color\=#DB3737FF>(Breakage)</color></size>=Правая рука (Шино)<size\=6><color\=#DB3737FF>(Конечность)</color></size>
 Chaos Weed=Сорняк хаоса
 Forest Weed=Лесной сорняк
-使用素材のクレジット(敬称略)\n---------------------------------------------------------\n■BGM\r\nDOVA-SYNDROME(shimtone)\n\r\n---------------------------------------------------------\n■声優、ボイス素材\r\nぶらっくわーくす音声素材集（CV：涼貴涼）\r\n音声素材_Pincree(CV：千夜)\r\n音声素材_Pincree(CV：逢坂成美)\r\n音声素材_Pincree(CV：来栖なむる)\r\n音声素材_Pincree(CV：此花瑠璃)\r\n音声素材_Pincree(CV：いちくら)\r=<size\=9>使用素材のクレジット(敬称略)\n--------------------------------------------------\n■BGM\r\nDOVA-SYNDROME(shimtone)\n\r\n--------------------------------------------------\n■声優、ボイス素材\r\nぶらっくわーくす音声素材集（CV：涼貴涼）\r\n音声素材_Pincree(CV：千夜)\r\n音声素材_Pincree(CV：逢坂成美)\r\n音声素材_Pincree(CV：来栖なむる)\r\n音声素材_Pincree(CV：此花瑠璃)\r\n音声素材_Pincree(CV：いちくら)\n\r\n---------------------------------------------------------\n■Ручной перевод игры\r\nboosty.to/ineith.content\r\n\n■Версия перевода: v0.4.5.6 [beta]</size>
 Ruins Candle (Red)=Свеча Руин (красная)
 Poison Spitting Shield=Ядовитый щит
 A shield with a face carving.\nGuarding allows for reducing damage by 90%.\nSpits out poisonous venom when guarding.\n\n<color\=#33FF99>Guard Rate 90</color>=Щит с резьбой лица\nСнижает полученный вами урон на 90%\nСоздает ядовитую лужу при получении урона\n\n<color\=#33FF99>Защита 90</color>
@@ -4782,7 +4781,6 @@ Takumi\nLet's enjoy ourselves together, shall we?=Такуми\nДавайте �
 Yona\nTakumi...!?=Йона\nТакуми ... !?
 Keigo\nI’ll distract the one on the right!!=Кейго\nЯ отвлеку того, что справа!
 エント戦士=Энт воин
-Build_2025/03/08--16:35=BUILD_2025/03/08--16: 35
 Pig 20=Свинья 20
 Deer 20=Олень 20
 Native (male) 10=Туземец 10
@@ -5992,7 +5990,6 @@ Grapple\n\nEnhances grapple.\n\nLv1 - Grapple deals 2 faint damage.\nFaint damag
 Grapple\n\nEnhances grapple.\n\nLv1 - Grapple deals 2 faint damage.\nFaint damage dealt for every 0.5 seconds of clicking.\n\nLv2 - 1.5x grapple time\nFaint damage dealt for every 0.4 seconds of clicking.\n\nLv3 - Grapple deals 3 faint damage.\nFaint damage dealt for every 0.3 seconds of clicking.\n\nLv4 - 2x grapple time\nFaint damage dealt for every 0.2 seconds of clicking.\n\nLv5 - Grapple deals 4 faint damage.\nFaint damage dealt for every 0.1 seconds of clicking.\n\nLv6 - From here on, Grapple deals 1 faint damage for every level-up.\n\n<color\=#33FF99>Current damage dealt by grapple 50</color>=Захват\nУлучшает захват\nLV1 - Захват наносит 2 урона\nЗахват наносит урон каждые 0,5 секунды щелчка\nLV2 - Время захвата х1.5\nЗахват наносит урон каждые 0,4 секунды щелчка\nLV3 - Захват наносит 3 урона\nЗахват наносит урон каждые 0,3 секунды щелчка\nLV4 - Время захвата х2\nЗахват наносит урон каждые 0,2 секунды щелчка\nLV5 - Захват наносит 4 урона\nЗахват наносит урон каждые 0,1 секунды щелчка\nLV6 - С этого момента, захват наносит +1 урон за каждый уровень\n\n<color\=#33FF99>Текущий урон, наносимый захватом - 50</color>
 Lead\n\nCapacity increased for companions.\n\nLv1 - Party capacity 4\n\nLv2 - Party capacity 5\n\nLv3 - Party capacity 6\n\nLv4 - Party capacity 7\n\nLv5 - Party capacity 8\n\n=Предводитель\nУвеличивает количество слотов для команды\nLV1 - Вместимость группы 4\nLV2 - Вместимость группы 5\nLV3 - Вместимость группы 6\nLV4 - Вместимость группы 7\nLV5 - Вместимость группы 8\n\n
 Swim（未実装）\n\nEnhances swim.\n\nLv1 - Stamina of swim increased by 20%.\nSpeed of swim increased by 10%.\n\nLv2 - Stamina of swim increased by 40%.\nSpeed of swim increased by 20%.\n\nLv3 - Stamina of swim increased by 60%.\nSpeed of swim increased by 30%.\n\nLv4 - Stamina of swim increased by 80%.\nSpeed of swim increased by 40%.\n\nLv5 - Stamina of swim increased by 100%.\nSpeed of swim increased by 50%.\n\n=Пловец\nУлучшает плавание\nLV1 - Энергия увеличивается на 20%\nСкорость плавания увеличилась на 10%\nLV2 - Энергия увеличивается на 40%\nСкорость плавания увеличилась на 20%.\nLV3 - Энергия увеличивается на 60%.\nСкорость плавания увеличилась на 30%\nLV4 - Энергия увеличивается на 80%\nСкорость плавания увеличилась на 40%\nLV5 - Энергия увеличивается на 100%\nСкорость плавания увеличилась на 50%\n\n
-Build_2025/04/19--19:24=Build_2025/04/19--19: 24
 Man\nWhoa!\nYou scared me... Nami, huh...!!=Парень\nАх!\nНами! ... ты напугала меня ...
 Nami\nOh! Sorry for scaring you.=Нами\nОй!\nИзвини, что испугала ...
 Man\nYou need something?=Парень\nТебе что-то нужно?
@@ -6434,7 +6431,6 @@ Man\nI want to be helpful to you too, Nami...=Парень\nНо я то же х
 Man\nI just want to support you!=Парень\nЯ просто хочу поддержать тебя!
 Nami\nMan-kun... =Нами\nMan-kun ... 
 Nami\nThank you... for someone like me...=Нами\nСпасибо ... для кого-то вроде меня ...
-Build_2025/04/19--20:21=Версия игры: v0.4.1 [beta]
 Paper lantern (bonbori)=Бонбори
 Hanami lantern (hexagonal)=Фонарь Ханами (шестиугольный)
 Hanami lantern=Фонарь Ханами
@@ -6513,7 +6509,6 @@ Under Ground Young Man[Under Ground Young Man]=Подземный туземец
 Mothman=Мосман
 Mothman[モスマン]=Мосман
 Captured Mothman=Захваченный Мосман
-Build_2025/06/06--14:50=Версия игры: v0.4.2 [beta]
 White Swimsuit=Белый купальник (топ)
 White Swimsuit (Tops)=Белый купальник (топ)
 Slim Outfit (Tops)=Белая футболка (топ)
@@ -6522,11 +6517,8 @@ White Clothes (Tops)=Белое платье
 White Clothes (Bottom)=Белая одежда (низ)
 White Swimsuit (Bottom)=Белый купальник (низ)
 Slim Outfit (Bottom)=Белые штаны (низ)
-Build_2025/06/06--16:37=Версия игры: v0.4.3 [beta]
 Kodachi=Кодачи
 When performing a heavy attack, you move behind the targeted enemy or a nearby enemy and strike.\n(Effective range: 5 meters)=При выполнении тяжелой атаки вы перемещаетесь за спину врага и наносите удар\n(Эффективная дальность действия: 5 метров)
-Build_2025/06/08--09:10=Версия игры: v0.4.3.2 [beta]
-Build_2025/08/08--17:52=Build_2025/08/08--17:52
 DLCを適用しています。=DLC обновлено
 Young Lady=Молодая леди
 Curtain (Black)=Черный занавес
@@ -6655,16 +6647,12 @@ Anti-Stun Potion=Зелье восстановления оглушения
 Gradually restores 1 stun point per second for 60 seconds.=Восстанавливает 1 очко оглушения\n\nДействует 60 секунд
 Recovery Potion=Зелье восстановления
 Gradually restores 5 HP every second for 60 seconds.=Восстанавливает 5 HP каждую секунду\n\nДействует 60 секунд
-Build_2025/08/08--20:24=Версия игры: v0.4.4.2 [beta]
 Light Bulb=Лампочка
 Fluorescent Lamp (Green)=Люминесцентная лампа (зеленая)
 Water Flow (Blood)=Кровавый поток воды
 Water Flow=Поток воды
-Build_2025/08/09--01:57=Версия игры: v0.4.4.3 [beta]
 Flower Carpet=Цветочный ковер
 Heart Closet=Симпатичный шкаф
-Build_2025/08/11--17:28=Версия игры: v0.4.4.4 [beta]
-Build_2025/08/11--18:12=Версия игры: v0.4.4.5 [beta]
 Load Spine Character=Загрузить персонажа
 Red Soul 10=Красная душа 10
 Soul Shard 5=Осколок души 5
@@ -6674,7 +6662,6 @@ Death[Death]<size\=6><color\=#DB3737FF>(Dead)</color></size><size\=6>[Large]</si
 Servant of Death[Servant of Death]<size\=6><color\=#DB3737FF>(Dead)</color></size><size\=6>[Large]</size>=Жнец<size\=6><color\=#DB3737FF> (Мертвый)</color></size><size\=6> [Большой]</size>
 Death(0)=Смерть
 Servant of Death(0)=Жнец
-Build_2025/08/17--15:37=Версия игры: v0.4.4.6 [beta]\nПеревод игры:\nboosty.to/ineith.content
 [Can be equipped.]=<size\=6><color\=#f58348><b>Могут использовать:</b></color></size>
 Chaos Cave=Пещера Хаоса
 Defeated the Gorilla Brothers.=Вы победили горилл
@@ -6685,8 +6672,6 @@ French Maid Costume 2 (Head)=Костюм французской горничн�
 French Maid Costume 2 (Tops)=Костюм французской горничной 2 (топ)
 French Maid Costume 2 (Bottom)=Костюм французской горничной 2 (низ)
 French Maid Costume 2 (Legs)=Костюм французской горничной 2 (обувь)
-Build_2025/08/20--16:18=Версия игры: v0.4.4.8 [beta]\nПеревод игры:\nboosty.to/ineith.content
-Build_2025/10/26--04:44=Версия игры: v0.4.5.2 [beta]\nПеревод игры:\nboosty.to/ineith.content
 Summon=Вызвать NPC
 Visit=Visit
 NpcID=NPC ID
@@ -7176,7 +7161,6 @@ Right Leg (Lulu)<size\=6><color\=#DB3737FF>(Breakage)</color></size>=Права�
 Left Leg (Lulu)<size\=6><color\=#DB3737FF>(Breakage)</color></size>=Левая нога (Лулу)<size\=6><color\=#DB3737FF>(Конечность)</color></size>
 Head (Lulu)<size\=6><color\=#DB3737FF>(Breakage)</color></size>=Голова (Лулу)<size\=6><color\=#DB3737FF>(Конечность)</color></size>
 Breast (Lulu)<size\=6><color\=#DB3737FF>(Breakage)</color></size>=Грудь (Лулу)<size\=6><color\=#DB3737FF>(Конечность)</color></size>
-Build_2025/11/02--11:31=Версия игры: v0.4.5.3 [beta]\nПеревод игры:\nboosty.to/ineith.content
 <color\=#33FF99>TakumiIsland.xml</color>\nPlayer Name : ヨナ & 男\nTotal npc counts : 30\nTotal npc levels : 406=<color\=#33FF99>Остров Такуми</color>\nИмя игрока: ヨナ & 男\nОбщее количество NPC: 30\nМаксимальный уровень NPC: 406
 "Greeting"\nThis is a normal greeting.=Это обычное приветствие.
 Invite (Failure)=Пригласить (провал)
@@ -7278,7 +7262,6 @@ A workplace for excavation.\n(Up to 3 users at the same time)=Рабочее м�
 A workplace for mining.\n(Up to 3 users at the same time)=Рабочее место для добычи камня и металла.\n(Добычей могут заниматься до 3 NPC)
 A workplace for logging.\n(Up to 3 users at the same time)=Рабочее место для лесозаготовки.\n(Лесозаготовкой могут заниматься до 3 NPC)
 Storing food inside allows friends to automatically eat.\n(Up to 3 users at the same time)=Хранение еды внутри позволяет друзьям есть автоматически.\n(Могут использовать до 3 NPC одновременно)
-Build_2025/11/06--20:23=Версия игры: v0.4.5.4 [beta]\nПеревод игры:\nboosty.to/ineith.content
 R forearm=R forearm
 <color\=#87cefa>Acce</color>Back2=<color\=#87cefa>Acce</color>Back2
 R arm=R arm
@@ -7356,4 +7339,3 @@ A_attack_up=A_attack_up
 1-34=<size\=6>Парень  x  Кана</size>
 1-35=<size\=6>Парень  x  Лулу</size>
 16-0=<size\=6>Йона  x  Крупный туземец</size>
-Build_2025/11/06--23:25=Версия игры: v0.4.5.6 [beta]\nПеревод игры:\nboosty.to/ineith.content

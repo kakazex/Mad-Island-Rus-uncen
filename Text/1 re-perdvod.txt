@@ -1,8 +1,15 @@
 Build_2025/11/06--23:25=Сборка 2025/11/06 (v0.4.5.6)
+Build_2026/01/18--09:43=Сборка 2026/01/18 (v0.5.6)
+r:Build_202([\d/]+)--([\d:]+)$=Сборка 202$1
 簡体中文=Китайский
+Window Mode=Режим окна
 BGM=Музыка
 Environment=Окружение
 Voice=Голос (стоны)
+Sex Scene Lock=Блок сцен секса
+Restrict sex based on story progress (story NPC)=Ограничить секс в зависимости от прогресса сюжета (сюжетные NPC)
+dlc00 none=dlc0 нет
+r:dlc_00 ([\S\s]+)$=dlc0 $1
 r:Save (\d+)\nDate:(\d+)年(\d+)月(\d+)日([\S\s]+)\nPlayTime:([\S\s]+)$=Сейв $1\nДата:$5  $4.$3.$2\nВсего: $6
 r:Backup Save\nDate:(\d+)年(\d+)月(\d+)日([\S\s]+)\nPlayTime:([\S\s]+)$=Авто-сейв (бэкап)\nДата:$4  $3.$2.$1\nВсего: $5
 r:Save (\d+)\nDate$=Сейв Слот $1 \n\n  Пусто
@@ -27,6 +34,7 @@ Heals injuries.\n\n<color\=#33FF99>Health 10</color>\n<color\=#33FF99>Food 1</co
 
 Cannot move when NPC is inside.=Нельзя перемещать, когда NPC внутри
 Count=Кол-во
+DayTime=Время дня
 Daytime=День
 Dawn=Рассвет
 Morning=Утро
@@ -48,6 +56,16 @@ OK=Ok
 [Large]= [Большой]
 Pork=Свинина
 Sandworm=Песчаный червь
+Vampire Scorpion=Скорпион
 Trader=<b>Наначи</b> (торг.)
+Shop=Магазин
+Name=Имя
+Return=Вернуть
+Class=Класс
+
+<color\=red>Native Girl Deleted [No DLC]</color>=<color\=red>Туземная девочка удалена [нет DLC]</color>
+<color\=red>Little & Nickey Deleted [No DLC]</color>=<color\=red>Литл и Ники удалены [нет DLC]</color>
 
 SPACEキーで終了=Пробел - Выход
+
+r:^使用素材のクレジット([\S\s]+)$=<size\=9>Кредиты на использованные материалы \n—————   —————   —————\n■Музыка\nDOVA-SYNDROME(shimtone)\n—————   —————   —————\n■Озвучка\nКоллекция аудиоматериалов Black Works (CV: Сузуки Рё)\nАудиоматериалы Pincree:\nCV: Чия, Наруми Осака, Намуру Курусу, Конохана Рури, Ичикура\n\n————— - ————— - —————\n■Перевод на русский:\n*Редактура, модификации и допы данного перевода:\n github.com/kakazex/Mad-Island-Rus-uncen \n*основной массив перевода текста от ineith (v0.4.5.6)\n*Автопердвод - от гугля\n\n■Перевод версий: v0.4.*-v0.5.*+ (и новее)</size>
