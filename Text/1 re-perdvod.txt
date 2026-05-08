@@ -1,5 +1,6 @@
-Build_2025/11/06--23:25=Сборка 2025/11/06 (v0.4.5.6)
 Build_2026/01/18--09:43=Сборка 2026/01/18 (v0.5.6)
+Build_2026/02/23--13:23=Сборка 2026/02/23 (v0.5.8)
+Build_2026/04/07--00:29=Сборка 2026/04/07 (v0.5.9)
 r:Build_202([\d/]+)--([\d:]+)$=Сборка 202$1
 簡体中文=Китайский
 Window Mode=Режим окна
@@ -9,6 +10,9 @@ Voice=Голос (стоны)
 Sex Scene Lock=Блок сцен секса
 Restrict sex based on story progress (story NPC)=Ограничить секс в зависимости от прогресса сюжета (сюжетные NPC)
 dlc00 none=dlc0 нет
+dlc_00 old=dlc0 старое
+dlc_00 needs to be updated. Please press the Update button above to update.=Версия dlc устарела. Обновить?
+Download from our website=Скачать с сайта
 r:dlc_00 ([\S\s]+)$=dlc0 $1
 r:Save (\d+)\nDate:(\d+)年(\d+)月(\d+)日([\S\s]+)\nPlayTime:([\S\s]+)$=Сейв $1\nДата:$5  $4.$3.$2\nВсего: $6
 r:Backup Save\nDate:(\d+)年(\d+)月(\d+)日([\S\s]+)\nPlayTime:([\S\s]+)$=Авто-сейв (бэкап)\nДата:$4  $3.$2.$1\nВсего: $5
@@ -16,8 +20,9 @@ r:Save (\d+)\nDate$=Сейв Слот $1 \n\n  Пусто
 r:Load Completed！...(\d+)sec$=Загрузка завершена！ ($1 сек.)
 Currently playing data=Загружено сохранение
 r:^(?!\d+-\d+$)[\W\d_]+$=$0
-r:Day (\d+)$=День $1
-r:Lv (\d+)$=$1 ур.
+r:^Day (\d+)$=День $1
+r:^Lv (\d+)$=$1 ур.
+r:^Lv(\d+)$=Ур. $1
 r:(\d+)pt$=$1 оч.
 r:ACT(\d+)$=АКТ$1
 r:Clamor can be heard!([\S\s]+)$=Слышен шум! Рейд $1
@@ -26,13 +31,53 @@ r:(\d+) food is needed.$=Необходимо $1% еды для перемеще
 r:Current level (\d+)$=Текущий уровень $1
 r:Current number of raiders (\d+)$=Итоговое количество рейдеров $1
 r:Current number of raiders (-\d+)$=Итоговое количество рейдеров $1 (рейда не будет)
+r:HouseID (\d+)$=Дом $1
+r:Ruins\(Level (\d+)\)$=<size\=12>Руины (уровень $1)</size>
+r:^Food (\d+)\nWater (\d+)$=Еда $1\nВода $2
+r:The raider's level rises by (\d+) for each installation.$=После каждой установки уровень рейда повышается на $1
 
-r:^\n\n<color\=#33FF99>Attack (\d+)</color>$=\n\n<color\=#33FF99>Атака $1</color>
-r:^\n\n<color\=#33FF99>Faint (\d+)</color>$=\n\n<color\=#33FF99>Оглушение $1</color>
-Heals injuries.\n\n<color\=#33FF99>Health 10</color>\n<color\=#33FF99>Food 1</color>\n<color\=#33FF99>Food Poisoning -5</color>=Лечит травмы.\n\n<color\=#33FF99>Здоровье 10</color>\n<color\=#33FF99>Еда 1</color>\n<color\=#33FF99>Пищевое отравление -5</color>
-\n\n<color\=#33FF99>Faint 20</color>\n<color\=#33FF99>Food 5</color>\n<color\=#33FF99>Water 4</color>=\n\n<color\=#33FF99>Оглушение? 20</color>\n<color\=#33FF99>Еда 5</color>\n<color\=#33FF99>Вода 4</color>
+r:Hard Blow\n\nEnhances heavy attack.\n\nLv1 - Defeating by heavy attack may result in 2 dismantles.\n\nLv2 - Heavy attacks can be canceled by guarding.\n\nLv3 - Heavy attacks damage rate \+50%\n\nLv4 - Speed of heavy attacks influenced by agility.\n\nLv5 - Heavy attacks damage rate \+100%\n\nLv6 - From here on, heavy attack deals 2% more damage for every level-up.\n\n<c.*?>Current damage dealt by heavy attack (\d+)%</.*?>=Сильный удар (F)\nУлучшает сильный удар/спецприем\nLV1 - Убийство сильным ударом может привести к 2 расчленениям\nLV2 - Сильный удар может быть отменен нажатием ПКМ\nLV3 - Скорость сильного удара +50%\nLV4 - Теперь ловкость влияет на скорость сильного удара\nLV5 - Скорость сильного удара +100%\nLV6 - С этого момента сильный удар наносит на +2% больше урона за каждый уровень прокачки навыка\n\n<color\=#33FF99>Текущий урон, наносимый сильным ударом - $1%</color>
+r:Grapple\n\nEnhances grapple.\n\nLv1 - Grapple deals 2 faint damage.\nFaint damage dealt for every 0.5 seconds of clicking.\n\nLv2 - 1.5x grapple time\nFaint damage dealt for every 0.4 seconds of clicking.\n\nLv3 - Grapple deals 3 faint damage.\nFaint damage dealt for every 0.3 seconds of clicking.\n\nLv4 - 2x grapple time\nFaint damage dealt for every 0.2 seconds of clicking.\n\nLv5 - Grapple deals 4 faint damage.\nFaint damage dealt for every 0.1 seconds of clicking.\n\nLv6 - From here on, Grapple deals 1 faint damage for every level-up.\n\n<c.*?>Current damage dealt by grapple (\d+)</.*?>=Захват жоп (парнем)\nУлучшает захват баб\nLV1 - Захват наносит 2 урона\nЗахват наносит урон каждые 0,5 секунды щелчка\nLV2 - Время захвата х1.5\nЗахват наносит урон каждые 0,4 секунды щелчка\nLV3 - Захват наносит 3 урона\nЗахват наносит урон каждые 0,3 секунды щелчка\nLV4 - Время захвата х2\nЗахват наносит урон каждые 0,2 секунды щелчка\nLV5 - Захват наносит 4 урона\nЗахват наносит урон каждые 0,1 секунды щелчка\nLV6 - С этого момента, захват наносит +1 урон за каждый уровень\n\n<color\=#33FF99>Текущий урон, наносимый захватом - $1</color>
+r:Self-healing\n\nHeals automatically with time when not in battle.\n\(excluding when hungry or dehydrated\)\n\nLv1 - Heals 2 for every 5 sec.\n\nLv2 - Heals 4 for every 5 sec.\n\nLv3 - Heals 6 for every 5 sec.\n\nLv4 - Heals 8 for every 5 sec.\n\nLv5 - Heals 10 for every 5 sec.\n\nLv6 - From here on, heals 2 for every 5 sec.\n\n<c.*?>Current Self-healing (\d+)/5s</.*?>=Самовосстановление\nАвтоматически восстанавливает здоровье вне битвы\n(за исключением голода или обезвоживания)\nLV1 - Исцеляет 2 НР каждые 5 сек\nLV2 - Исцеляет 4 НР каждые 5 сек\nLV3 - Исцеляет 6 НР каждые 5 сек\nLV4 - Исцеляет 8 НР каждые 5 сек\nLV5 - Исцеляет 10 НР каждые 5 сек\nLV6 - С этого момента исцеляется +2 дополнительных НР каждые 5 сек\n\n<color\=#33FF99>Текущее самовосстановление $1/5 с</color>
+
+r:^\n\n<c.*?>Attack (\d+)</.*?>$=\n\n<color\=#33FF99>Атака $1</color>
+r:^\n\n<c.*?>Faint (\d+)</.*?>$=\n\n<color\=#33FF99>Оглушение $1</color>
+r:A weapon to stun enemies.\n\n<c.*?>Faint (\d+)</.*?>$=Позволяет оглушать врагов\n\n<color\=#33FF99>Оглушающий урон - $1</color>
+r:Heals injuries.\n<c.*?>Health 10</.*?>\n<c.*?>Food 1</.*?>\n<c.*?>Food Poisoning -5</.*?>\n=Лечит травмы.\n<color\=#33FF99>Здоровье 10</color>\n<color\=#33FF99>Еда 1</color>\n<color\=#33FF99>Пищевое отравление -5</color>\n
+r:A cooked meat.\n<c.*?>Food (\d+)</.*?>\n$=Готовое мясо.\n<color\=#33FF99>Еда $1</color>\n
+r:\n\n<c.*?>Faint 20</.*?>\n<c.*?>Food 5</.*?>\n<c.*?>Water 4</.*?>=\n\n<color\=#33FF99>Оглушение? 20</color>\n<color\=#33FF99>Еда 5</color>\n<color\=#33FF99>Вода 4</color>
+r:A fruit that grants experience when consumed.\n\n<c.*?>Food 1</.*?>\n<c.*?>Water 1</.*?>\n<c.*?>Exp (\d+)</.*?>=Фрукт, который дает опыт при употреблении\n<color\=#33FF99>Еда 1</color>\n<color\=#33FF99>Вода 1</color>\n<color\=#33FF99>Exp $1</color>
+
+r:^Corn (\d+)$=Кукуруза $1
+r:^Berry (\d+)$=Ягода $1
+r:^Hen (\d+)$=Курица $1
+r:^Rooster (\d+)$=Петух $1
+r:^Rabbit (\d+)$=Кролик $1
+r:^Carrot (\d+)$=Морковка $1
+r:^Raw Meat (\d+)$=Сырое мясо $1
+r:^Pig (\d+)$=Свинья $1
+r:^Deer (\d+)$=Олень $1
+r:^Frog (\d+)$=Лягушка $1
+r:^Butterfly (\d+)$=Бабочка $1
+
+r:^[a-zA-Z]$=$0
+r:^[a-z0-9]{2}$=$0
+I=Я
+r:^\w*_\w*$=$0
+yona_10=<size\=6>Туземец  x  Йона</size>
+yona_11=<size\=5>Большой туземец  x  Йона</size>
+yona_25=<size\=5>Снежный человек  x  Йона</size>
+yona_35=<size\=6>Оборотень  x  Йона</size>
+yona_100=<size\=6>Дяденька  x  Йона</size>
+yona_101=<size\=6>Спайк  x  Йона</size>
+yona_103=<size\=6>Плантон  x  Йона</size>
+yona_104=<size\=6>Босс туземцев  x  Йона</size>
+yona_106=<size\=6>Доктор Эд  x  Йона</size>
+yona_108=<size\=6>Бандиты  x  Йона</size>
+yona_112=<size\=6>Далман x Йона (гуро)</size>
 
 Cannot move when NPC is inside.=Нельзя перемещать, когда NPC внутри
+Cannot summon NPCs in chest.=Нельзя вызвать NPC в сундуке.
 Count=Кол-во
 DayTime=Время дня
 Daytime=День
@@ -46,6 +91,7 @@ Equips=Экипировка
 H Scenes=Х Сцены
 Return to title=В меню
 OK=Ok
+ALL=ВСЕ
 範囲=Радиус
 強度=Сила
 高さ=Высота
@@ -62,10 +108,24 @@ Shop=Магазин
 Name=Имя
 Return=Вернуть
 Class=Класс
+Self-healing=Восстанова
+Smash=Разнос
+Hat=Шляпа
+Ent Warrior=Энт-воин
+Mummy=Мумия
+Daddy=Мумий
+Daddy(0)=Мумий
+Ruck(0)=Кенгуру
+VampireScorpion(0)=Скорпион
+Livestock Pen=Загон для скота
 
 <color\=red>Native Girl Deleted [No DLC]</color>=<color\=red>Туземная девочка удалена [нет DLC]</color>
 <color\=red>Little & Nickey Deleted [No DLC]</color>=<color\=red>Литл и Ники удалены [нет DLC]</color>
 
 SPACEキーで終了=Пробел - Выход
+こんにちはあああaaaaaaaaaa\n=Привет ааааа\n
+Friend ID:00000=ID друга: 00000
+ああああ=Аааа
+aaaaaaaaaa=ааааа
 
-r:^使用素材のクレジット([\S\s]+)$=<size\=9>Кредиты на использованные материалы \n—————   —————   —————\n■Музыка\nDOVA-SYNDROME(shimtone)\n—————   —————   —————\n■Озвучка\nКоллекция аудиоматериалов Black Works (CV: Сузуки Рё)\nАудиоматериалы Pincree:\nCV: Чия, Наруми Осака, Намуру Курусу, Конохана Рури, Ичикура\n\n————— - ————— - —————\n■Перевод на русский:\n*Редактура, модификации и допы данного перевода:\n github.com/kakazex/Mad-Island-Rus-uncen \n*основной массив перевода текста от ineith (v0.4.5.6)\n*Автопердвод - от гугля\n\n■Перевод версий: v0.4.*-v0.5.*+ (и новее)</size>
+r:^使用素材のクレジット([\S\s]+)$=<size\=9>Кредиты на использованные материалы \n—————   —————   —————\n■Музыка\nDOVA-SYNDROME(shimtone)\n—————   —————   —————\n■Озвучка\nКоллекция аудиоматериалов Black Works (CV: Сузуки Рё)\nАудиоматериалы Pincree:\nCV: Чия, Наруми Осака, Намуру Курусу, Конохана Рури, Ичикура\n\n————— - ————— - —————\n■Перевод на русский:\n*Редактура, модификации и допы данного перевода:\n github.com/kakazex/Mad-Island-Rus-uncen \n*основной массив перевода текста от ineith (v0.5.6)\n*Автопердвод - от гугля (по умолч.)\n\n■Перевод версий: v0.4.*-v0.5.*+ (и новее)</size>
