@@ -1,0 +1,177 @@
+Build_2026/01/18--09:43=Сборка 2026/01/18 (v0.5.6)
+Build_2026/02/23--13:23=Сборка 2026/02/23 (v0.5.8)
+Build_2026/04/07--00:29=Сборка 2026/04/07 (v0.5.9)
+Build_2026/05/11--01:29=Сборка 2026/05/11 (v0.5.10.2)
+
+Load Game=Загрузить
+New Game=Новая игра
+Edit=Редактор
+Options=Настройки
+Workshop=Мастерская
+Quit=Выйти
+Load game?=Загрузить игру?
+Yes=Да
+No=Нет
+Currently playing data=Загружено сохранение
+Credit=<size\=8>Материалы</size>
+Open Save Folder=Папка сейвов
+Low=Низко
+Middle=Средне
+High=<b>Высоко</b>
+Fantastic=<b>Фантастика</b>
+Window Mode=Режим окна
+Full Screen=Полный экран
+Window=Окно
+BGM=Музыка
+Environment=Окружение
+Voice=Голос (стоны)
+Sex Scene Lock=Блок сцен секса
+Restrict sex based on story progress (story NPC)=Ограничить секс в зависимости от прогресса сюжета (сюжетные NPC)
+dlc00 none=dlc0 нет
+簡体中文=Китайский
+
+A barricade made of sharpened wood.=Баррикада, сделанная из заточенной древесины.
+A wooden barricade.=Деревянная баррикада.
+A stone barricade.=Каменная баррикада.
+A iron barricade.=Железная баррикада.
+Wood Wall=Деревянная стена
+Ironstone Wall=Каменная стена с железным покрытием.
+Glass Wall=Стеклянная стена
+Luxury Wall=Роскошная стена
+Meat Wall=Мясная стена
+Mushroom Wall=Грибная стена
+Phallic wall=Фаллическая стена
+Sandstone Wall=Стена песчаника
+Spider Wall=Стена паука
+Wool Wall=Шерстяная стена
+A chest for storing items.=Сундук для хранения предметов
+A chest for storing items.\nDeals damage to enemies that touch it.=Сундук для хранения предметов\nНаносит урон врагам, которые его касаются
+Allows for smelting ore.=Позволяет плавить руду
+Keeping hens will yield eggs.\n(Can keep up to 3 hens.)=Поместите курицу для получения яиц.\n(Может содержать до 3 кур)
+Can be used to milk postpartum NPCs.=Можно использовать для молока послеродовых NPC.
+Can be used to milk NPCs that have given birth.\nMilking consumes food and water,\nthey need to be “Livestock” by other NPCs.=Используется для получения грудного молока с NPC, которые недавно родили\n\nДоение потребляет еду и воду\nОни должны быть «Скотом» для других NPC
+A cage to keep humans.\nCage in humans with food to keep.\n(Can keep a single human.)=Клетка, чтобы держать людей (слотов 1+1)\n<size\=7>・ Поместить NPC и еду в клетку\n・ Ждать макса у NPC\n・ Забрать NPC и выпустить ПКМом</size>
+A cage to keep humans.\nCage in humans with food to keep.\n(Can keep up to 3 humans.)=Клетка, чтобы держать людей (слотов 3+1)\n<size\=7>・ Поместить NPC и еду в слоты\n・ Ждать макса у NPC\n・ Забрать NPC и выпустить ПКМом</size>
+Fencing to keep large animals.\nCage in captured animals with feed to keep.\n(Can keep a single animal.)=<size\=7>Ограждение, чтобы держать больших животных (слотов 1+1)\n・ Поместить животное и еду в клетку\n・ Ждать надписи МАКС\n・ Забрать животное и выпустить ПКМом</size>
+Fencing to keep medium animals.\nCage in captured animals with feed to keep.\n(Can keep up to 2 animals.)=<size\=7>Ограждение, чтобы держать средних животных (слотов 2+1)\n・ Поместить животное и еду в клетку\n・ Ждать надписи МАКС\n・ Забрать животное и выпустить ПКМом</size>
+Fencing to keep small animals.\nCage in captured animals with feed to keep.\n(Can keep up to 2 animals.)=<size\=7>Ограждение, чтобы держать маленьких животных (слотов 2+1)\n・ Поместить животное и еду в клетку\n・ Ждать надписи МАКС\n・ Забрать животное и выпустить ПКМом</size>
+Создание вещей из мастерской Steam=Создание вещей из мастерской Steam
+
+
+<color\=#ff00ff>MAX</color>=<color\=#ff00ff>MAX</color>
+Cannot move when NPC is inside.=Нельзя перемещать, когда NPC внутри
+Cannot summon NPCs in chest.=Нельзя вызвать NPC в сундуке.
+Cannot disassemble NPCs in chest.=Нельзя разделать животное в загоне
+Count=Кол-во
+Level=  Ур.  -
+DayTime=Время дня
+Daytime=День
+Dawn=Рассвет
+Morning=Утро
+Evening=Вечер
+Noon=Полдень
+Night=Ночь
+Animations=Анимации
+Equips=Экипировка
+H Scenes=Х Сцены
+Return to title=В меню
+OK=Ok
+I=Я
+ALL=ВСЕ
+範囲=Радиус
+強度=Сила
+高さ=Высота
+透明度=Видим.
+影強度=Тень
+[Small]= [Маленький]
+[Medium]= [Средний]
+[Large]= [Большой]
+Pork=Свинина
+Sandworm=Песчаный червь
+Vampire Scorpion=Скорпион
+Trader=<b>Наначи</b> (торг.)
+Shop=Магазин
+Name=Имя
+Return=Вернуть
+Call=Призвать
+Class=Класс
+Self-healing=Восстанова
+Smash=Разнос
+Hat=Шляпа
+Ent Warrior=Энт-воин
+Underground Woman=Подземная женщина
+Mummy=Мумия
+Mummy(0)=Мумия
+Daddy=Мумий
+Daddy(0)=Мумий
+人造人間(0)=Андроид [0]
+Ruck(0)=Кенгуру
+VampireScorpion(0)=Скорпион
+Sand Cat[Sand Cat]<size\=6>[Small]</size>=Песчаный кот <size\=6>[Маленький]</size>
+Cave Ape=Пещерная обезьяна
+Centipede=Сколопендра
+Snake=Змея
+Livestock Pen=Загон для скота
+Follower list=Отряд спутников
+Long Pipe=Длинная труба
+Upset stomach.=Расстройство желудка.
+Food poisoning.=Пищевое отравление.
+Recovered stomach.=Желудок восстановился.
+All in=Всё сюда
+Stack=Стек
+All out=Взять все
+Take out all items=В инвент.
+Skip=Пропустить
+Lay Down=Лежать
+Movement speed limit=Скорость движения
+Mining=Горное дело
+Visit=Визит
+Wooden Chair=Деревянный стул
+Wooden Box (Decoration)=Деревянный ящик (украшение)
+Cloth Bag=Тканевый мешок
+Decoration=Украшение
+Scale=Масштаб
+Drink Maker=Производитель напитков
+Work Light (Back)=Рабочий свет (задний)
+Work Light (Front)=Рабочий свет (спереди)
+Female Manju=Женский Манджу
+Increases the NPC’s affection when consumed=Увеличивает привязанность NPC при употреблении.
+Allows for rising growth value.\nWhen growth value reaches 18, one will become an adult.(Children Only)=Позволяет повысить возраст NPC.\nКогда возраст достигнет 18, NPC станет взрослым. (Только для детей)
+Fetal Growth Potion=Зелье роста плода
+Increases pregnancy progress when consumed=Ускоряет течение беременности при употреблении
+Underground Girl=Подземная девочка
+
+Generating Map...0sec=Генерация карты... 0сек.
+Recover HP by 50% of max value.\n<color\=#00fa9a>Meal Effectiveness (during raid)</color>\n<color\=#00fa9a>Defence 2</color>\n=Восстанавливает HP на 50% от максимума.\n<color\=#00fa9a>Эффективность еды (во время рейда)\nЗащита 2</color>\n
+Contains juice.\n<color\=#33FF99>Health 10</color>\n<color\=#33FF99>Food 5</color>\n<color\=#33FF99>Water 30</color>\n<color\=#33FF99>Food Poisoning -20</color>\n=Содержит сок.\n<color\=#33FF99>Здоровье 10\nЕда 5\nВода 30\nПищевое отравление -20</color>\n
+Install near a place of childbirth to deliver a girl.\n<color\=#33FF99>Food 15</color>\n=Установите возле места родов, чтобы родить девочку.\n<color\=#33FF99>Еда 15</color>\n
+Install near a place of childbirth to deliver a boy.\n<color\=#33FF99>Food 15</color>\n=Установите возле места родов, чтобы родить мальчика.\n<color\=#33FF99>Еда 15</color>\n
+
+yona_10=<size\=6>Туземец  x  Йона</size>
+yona_11=<size\=5>Большой туземец  x  Йона</size>
+yona_25=<size\=5>Снежный человек  x  Йона</size>
+yona_35=<size\=6>Оборотень  x  Йона</size>
+yona_100=<size\=6>Дяденька  x  Йона</size>
+yona_101=<size\=6>Спайк  x  Йона</size>
+yona_103=<size\=6>Плантон  x  Йона</size>
+yona_104=<size\=6>Босс туземцев  x  Йона</size>
+yona_106=<size\=6>Доктор Эд  x  Йона</size>
+yona_108=<size\=6>Бандиты  x  Йона</size>
+yona_112=<size\=6>Далман x Йона (гуро)</size>
+1-39=Йона-дроид
+7-2=Доильня (Йона?)
+7-4=Доильня (мумия)
+7-5=Доильня (подзем. баба)
+7-7=Доильня (крупная туземка)
+
+dlc_00 old=dlc0 старое
+dlc_00 needs to be updated. Please press the Update button above to update.=Версия dlc устарела. Обновить?
+Download from our website=Скачать с сайта
+<color\=red>Native Girl Deleted [No DLC]</color>=<color\=red>Туземная девочка удалена [нет DLC]</color>
+<color\=red>Little & Nickey Deleted [No DLC]</color>=<color\=red>Литл и Ники удалены [нет DLC]</color>
+
+SPACEキーで終了=Пробел - Выход
+こんにちはあああaaaaaaaaaa\n=Привет ааааа\n
+Friend ID:00000=ID друга: 00000
+ああああ=Аааа
+aaaaaaaaaa=ааааа

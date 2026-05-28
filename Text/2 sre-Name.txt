@@ -1,0 +1,107 @@
+sr:^(\w+)\(([1-9]\d*)\)$=$1 ($2)
+sr:^(.+)\((\d+)\)$=$1 ($2)
+r:^(?!.*[a-zA-Z]).*[а-яА-ЯёЁ].*$=$0
+r:^([а-яА-ЯёЁ]+)\((\d+)\)$=$1 ($2)
+
+sr:^(.+) is targeted.$=Цель - $1
+sr:^Exile (.+)\?$=Изгнать $1?
+sr:^(.+) has leveled up.$=$1 повышение уровня
+
+sr:^Native \(Female\)\[(.+)\](.*)$=Туземка [$1] $2
+sr:^Under Ground Woman\[(.+)\](.*)$=Подземная женщина [$1] $2
+sr:^Elder Sister Native\[(.+)\](.*)$=Старшая сестра [$1] $2
+sr:^Large Native \(Female\)\[(.*)\](.*)$=Крупная туземка (самка) [$1] $2
+
+r:^<(.+)>\(Dead\)</(.+)>$=<$1>(Труп)</$2>
+r:^<(.+)>\(Dead\)<(.+)>\(Exile\)</(.+)>$=<$1>(Труп)(Изгнание)</$3>
+
+r:^Young Lady\((\d+)\)$=Молодая леди ($1)
+r:^Young Man\((\d+)\)$=Молодой парень ($1)
+
+Ailine=Эйлин
+Aira=Айра
+Alia=Алия
+Aliss=Алис
+Ana=Ана
+Bianca=Бьянка
+Cao=Цао
+Catherine=Катерина
+Conie=Коние
+Den=Ден
+Denan=Денан
+Doremi=Дореми
+Dotol=Дотол
+Eina=Эйна
+Elue=Элие
+Happa=Хаппа
+Haran=Харан
+Henun=Хенун
+Hyan=Хиан
+Imm=Имм
+Inka=Инка
+Jin=Джин
+Kara=Кара
+Keira=Кейра
+Keito=Кейто
+Kewrie=Кеври
+Kiel=Киель
+Kira=Кира
+Kisha=Киша
+Korananda=Корананда
+Nabe=Набе
+Nananka=Нананка
+Nenen=Ненен
+Nima=Нима
+Nuan=Нуан
+Nuka=Нука
+Nume=Нумэ
+Nun=Нун
+Nushante=Нушанте
+Nyen=Ниен
+Selsia=Сельсия
+Selulu=Селулу
+Senan=Сенан
+Sieka=Сиека
+Sol=Сол
+Takaru=Такару
+Tanu=Тану
+Temn=Тэмн
+Tolulu=Толулу
+Tonan=Тонан
+Topa=Топа
+Toppo=Топпо
+Welena=Велена
+Ying=Инг
+
+Piece=Кусок
+
+Slender Young Lady(0)=Стройная леди (0)
+
+Yona is targeted.=Йона - цель рейда
+Man is targeted.=Цель рейда - Парень
+
+Female Native is targeted.=Цель рейда - Туземка
+Elder Sister Native is targeted.=Старшая сестра - цель рейда
+Under Ground Woman is targeted.=Подземная женщина - цель рейда
+
+Exile Male Native?=Изгнать туземца?
+Exile Female Native?=Изгнать туземку?
+Exile Female Large Native?=Изгнать крупную туземку?
+Exile Gorola?=Выгнать Горолу?
+Exile Gorela?=Выгнать Горелу?
+Exile Corrupt Lizard?=Изгнать ящерицу хаоса?
+Exile Mogle?=Изгнать крота хаоса?
+
+Yona has leveled up.=Йона повысила уровень
+Man has leveled up.=Парень повысил уровень
+Under Ground Woman has leveled up.=Подземная женщина повысила уровень
+Giant has leveled up.=Гигантша повысила уровень
+Maid Ruck has leveled up.=Горничная-кенгуру повысила уровень
+Cassie has leveled up.=Кэсси повысила уровень
+Sally has leveled up.=Салли повысила уровень
+Mermaid has leveled up.=Русалка повысила уровень
+Nami has leveled up.=Нами повысила уровень
+Shino has leveled up.=Шино повысила уровень
+Mira has leveled up.=Мира повысила уровень
+Kana has leveled up.=Кана повысила уровень
+Little & Nickey has leveled up.=Литтл и Ники повысили уровень
